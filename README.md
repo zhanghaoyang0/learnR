@@ -38,8 +38,7 @@ you will see:
 ```
 [1] NA
 Warning message:
-In mean.default(df[, ncol(df)]) :
-  argument is not numeric or logical: returning NA
+In mean.default(score) : argument is not numeric or logical: returning NA
 ```
 Why? Because the `score` is character, we should convert it to numberic:
 ```
