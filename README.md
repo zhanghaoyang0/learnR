@@ -13,14 +13,14 @@ Let's learn R step by step, it is easy!
 2. Measure the proprotion of second column (i.e., sex)
 3. Measure the mean and sd of last column (i.e., score)  
 
-# Reference answer (20221128)
-## Read that data:
+## Reference answer (20221128)
+### Read that data:
 ```  
 library(readxl)
 file='this/is/your/path/of/the/file/冠心病患者运动康复依从性及影响因素调查问卷'
 df = read_excel(file)
 ``` 
-## Measure the proprotion of second column (i.e., sex):  
+### Measure the proprotion of second column (i.e., sex):  
 ``` 
 table(df[,2])
 table(df[,2])/nrow(df) # nrow is the total number of column in the dataframe
@@ -32,7 +32,7 @@ You will see:
        女        男 
 0.5652174 0.4347826 
 ```
-## Measure the mean and sd of last column (i.e., score):  
+### Measure the mean and sd of last column (i.e., score):  
 ```
 score = df[,ncol(df)]
 mean(score) # ncol is the total number of column in the dataframe
