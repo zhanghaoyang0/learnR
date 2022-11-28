@@ -24,7 +24,7 @@ df = read_excel(file)
 ``` 
 table(df[,2])
 ```
-you will see:  
+You will see:  
 ```
 女 男 
 65 50 
