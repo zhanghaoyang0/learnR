@@ -64,6 +64,3 @@ Prepare for your examination first, then you may go this homework:
 1. Test if the score in male and female is different.
 2. Test if the education level (4th col) in male and female is different.
 
-
-# Feedback and comments
-Add an issue or contact me via zhanghaoyang0@hotmail.com
