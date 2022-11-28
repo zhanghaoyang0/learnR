@@ -9,11 +9,12 @@ Let's learn R step by step, it is easy!
 `冠心病患者运动康复依从性及影响因素调查问卷` contributed by Fan Yang, thanks~
 
 # Homework 1 (20221123)
+## Target
 1. Read that data
 2. Measure the proprotion of second column (i.e., sex)
 3. Measure the mean and sd of last column (i.e., score)  
 
-## Reference answer (20221128)
+## Reference answer
 ### Read that data:
 ```  
 library(readxl)
