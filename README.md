@@ -24,7 +24,7 @@ df = read_excel(file)
 ### Measure the proprotion of second column (i.e., sex):  
 ``` 
 table(df[,2])
-table(df[,2])/nrow(df) # nrow is the total number of column in the dataframe
+table(df[,2])/nrow(df) # nrow is the total number of rows in the dataframe
 ```
 You will see:  
 ```
@@ -36,7 +36,7 @@ You will see:
 ### Measure the mean and sd of last column (i.e., score):  
 ```
 score = df[,ncol(df)]
-mean(score) # ncol is the total number of column in the dataframe
+mean(score) # ncol is the total number of columns in the dataframe
 ```
 You will see:  
 ```
