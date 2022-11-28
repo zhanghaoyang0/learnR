@@ -6,7 +6,7 @@ Let's learn R step by step, it is easy!
 - `Rstudio`
  
 # Data 
-`冠心病患者运动康复依从性及影响因素调查问卷` contributed by Fan Yang, Thanks~
+`冠心病患者运动康复依从性及影响因素调查问卷` contributed by Fan Yang, thanks~
 
 # Homework 1 (20221123)
 1. Read that data
