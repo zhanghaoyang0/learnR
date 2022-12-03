@@ -67,4 +67,5 @@ paste0(round(mean(score), 1), '±', round(sd(score), 1))
 Prepare for your examination first, then you may go this homework:
 1. Test if the score in male and female is different.
 2. Test if the education level (4th col) in male and female is different.
+3. Use for loop to measure the distribution of variable in 2-10 column (i.e., sex to drink or not), one by one.
 
