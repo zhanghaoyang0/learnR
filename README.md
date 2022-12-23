@@ -104,12 +104,12 @@ for (i in names(df)[2:10]){
 # ...
 ``` 
 
-# Homework 2 (20221223)
+# Homework 3 (20221223)
 ## Target
 1. Measure the association between score (67th col), and sex (2nd col) to "53、当一个人心脏有问题时，他/她应该避免进行体力活动/锻炼"(66th col), one by one, with regression.  
 For example, in your first regression, your y is score, your x is sex. In your second regression, your y is score, your x is age... 
-3. Measure the association between "12、是否接受冠心病相关的健康教育" (13th col), and sex (2nd col) to "53、当一个人心脏有问题时，他/她应该避免进行体力活动/锻炼"(66th col), one by one, with regression. Note that you should use logistic regression for binary outcome.
-4. Go through this [*paper*](https://pubmed.ncbi.nlm.nih.gov/29201888/)
+2. Measure the association between "12、是否接受冠心病相关的健康教育" (13th col), and sex (2nd col) to "53、当一个人心脏有问题时，他/她应该避免进行体力活动/锻炼"(66th col), one by one, with regression. Note that you should use logistic regression for binary outcome.
+3. Go through this [*paper*](https://pubmed.ncbi.nlm.nih.gov/29201888/)
 
 
 
